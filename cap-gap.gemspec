@@ -22,6 +22,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'bundler', '~> 1.3'
   spec.add_development_dependency 'rake'
 
-  spec.add_dependency 'cap-ec2', git: 'https://github.com/missiondata/cap-ec2'
+  # spec.add_dependency 'cap-ec2'
   spec.add_dependency 'capistrano', '>= 3.0'
 end
